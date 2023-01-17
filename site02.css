@@ -1,0 +1,103 @@
+html, body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background-image: url(ville9.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+#corps{
+    top: 15vw;
+    width: 25vw;
+    height: 38vw;
+    margin:10px 0 0 210px;
+    position: relative;
+}
+
+/* commun pour chacune des 3 iframes de la page */
+#corps iframe{
+    display:block;
+    width:100%;
+    height:33.3%;
+    border:none;
+}
+
+#frame1{
+    position:absolute; 
+    top:0%; 
+    z-index:3;
+}
+
+#frame2{
+    position:absolute;
+    top:25%; 
+    z-index:2;
+}
+
+#frame3{
+    position: absolute; 
+    top: 45%;
+    z-index:1;
+}
+
+/*deuxième "méli mélo"*/
+#armes iframe{
+    display:block;
+    top: 20vw;
+    left: 60vw;
+    width: 15px;
+    height: 28px;
+    position: absolute;
+    width:30%;
+    height:30%;
+    border: none; 
+    z-index: 1;
+}
+
+/*fond*/
+.cadre{
+    top: 10vw;
+    width: 454px;
+    height: 605px;
+    margin: 8px 0 0 165px;
+    position: absolute;
+  }
+
+.cadre2{
+    top: 10vw;
+    width: 454px;
+    height: 605px;
+    margin:0 0 0 940px;
+    position: absolute;
+}
+
+#weapons{
+    background-image: url(wallfont11.png);
+    position:absolute;
+}
+
+#weapons2{
+    background-image: url(wallfont12.png);
+    position:absolute;
+}
+
+
+/*sources*/
+.source{
+    width:200px;
+    height:100px;
+    position: absolute;
+    top:735px;
+}
+
+/*musique*/
+.sound{
+    position: absolute;
+    top:745px;
+    left:1235px;
+}
